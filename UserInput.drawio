@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T22:33:50.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.3" etag="qqUDPeqiRu-nMzFBjj7Q" type="github"><diagram id="Hvstrzyzne6Slic3TTS3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-01T22:44:38.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="DDIhf8u1ncrQxZrqUaJo" version="14.5.3" type="github">
+  <diagram id="Hvstrzyzne6Slic3TTS3" name="Page-1">
+    <mxGraphModel dx="1067" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCJP-hoDY3M6k-Q5WsPH-1" target="CCJP-hoDY3M6k-Q5WsPH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-1" value="start&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CCJP-hoDY3M6k-Q5WsPH-3" target="CCJP-hoDY3M6k-Q5WsPH-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-3" value="Collect User Input From cmd line&lt;br&gt;UserInput.value;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <object label="" id="CCJP-hoDY3M6k-Q5WsPH-7">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CCJP-hoDY3M6k-Q5WsPH-6">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="450" y="520" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="680" y="350" />
+                <mxPoint x="680" y="520" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCJP-hoDY3M6k-Q5WsPH-7">
+          <mxGeometry x="-0.825" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=-0.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CCJP-hoDY3M6k-Q5WsPH-6" target="CCJP-hoDY3M6k-Q5WsPH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-6" value="if (UserInput.value === 0)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CCJP-hoDY3M6k-Q5WsPH-9" target="CCJP-hoDY3M6k-Q5WsPH-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CCJP-hoDY3M6k-Q5WsPH-13" value="Print higest number, average, and smallest number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
